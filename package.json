@@ -1,0 +1,32 @@
+{
+  "name": "hot-offers-ui",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "flow-bin": "^0.36.0",
+    "react-scripts": "0.7.0",
+    "redux-devtools": "^3.3.1",
+    "immutable": "^3.8.1"
+  },
+  "dependencies": {
+    "bootstrap": "^4.0.0-alpha.5",
+    "expect": "^1.20.2",
+    "ramda": "^0.22.1",
+    "react": "^15.4.1",
+    "react-dom": "^15.4.1",
+    "react-redux": "^4.4.6",
+    "react-router": "^3.0.0",
+    "react-router-redux": "^4.0.7",
+    "redux": "^3.6.0",
+    "redux-thunk": "^2.1.0",
+    "whatwg-fetch": "^1.0.0",
+    "object-assign": "^4.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "flow": "flow; test $? -eq 0 -o $? -eq 2"
+  }
+}
